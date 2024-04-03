@@ -9,3 +9,14 @@
 
 
  <p>Dans le cadre  d'un projet web, je me suis donné pour objectif de mettre en place une version basique de la plate forme en utilisant les langage HTML, CSS et PHP   pour le dynamisme ainsi que une base de donnée MYSQL pour stocker les données sur les patients ainsi que les praticiens</p>
+
+ <p>Pour la création de ce site web , nous avon utilisé la patron de conception MVC (modèle vue controlleur) afin de faciliter les communications entre les pages html et la base de donnée MYSQL par l'intermédiaire du langage PHP
+ </p>
+
+ <ul>
+  <li>Le modele: il s'agit ici de l'ensemble des fichier dans lesquels étaient écrites les requêtes permettant de récupérer les données dans la base de données MYSQL</li>
+  <li>Les Vues: se sont des pages html qui représentent l'interface avec lequel les utilisateurs vont pouvoir interagir</li>
+  <li>Le controleur: le controleur va associé chaque page html (vue) au modéle qui récupère les données dont elle a besoin.</li>
+ </ul>
+
+ 
